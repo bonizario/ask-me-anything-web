@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply flex min-h-full flex-grow flex-col;
+}
+
 body {
-  @apply bg-zinc-950 text-zinc-50 antialiased;
+  @apply flex flex-grow flex-col bg-zinc-950 font-sans text-zinc-50 antialiased;
+}
+
+#root {
+  @apply flex flex-grow flex-col;
 }
